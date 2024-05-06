@@ -1,0 +1,6 @@
+@Movie_WebApp_Using_.net_And_Angular.Server_HostAddress = http://localhost:5043
+
+GET {{Movie_WebApp_Using_.net_And_Angular.Server_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

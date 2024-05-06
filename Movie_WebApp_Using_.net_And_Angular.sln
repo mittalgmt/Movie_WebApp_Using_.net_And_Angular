@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34622.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Movie_WebApp_Using_.net_And_Angular.Server", "Movie_WebApp_Using_.net_And_Angular.Server\Movie_WebApp_Using_.net_And_Angular.Server.csproj", "{7EFE8D79-C5AA-4C8C-9EE4-115B365FFAA7}"
+EndProject
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "movie_webapp_using_.net_and_angular.client", "movie_webapp_using_.net_and_angular.client\movie_webapp_using_.net_and_angular.client.esproj", "{7975FC3D-3384-45C3-BBD9-396AE9A5E2C7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7EFE8D79-C5AA-4C8C-9EE4-115B365FFAA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7EFE8D79-C5AA-4C8C-9EE4-115B365FFAA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7EFE8D79-C5AA-4C8C-9EE4-115B365FFAA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7EFE8D79-C5AA-4C8C-9EE4-115B365FFAA7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7975FC3D-3384-45C3-BBD9-396AE9A5E2C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7975FC3D-3384-45C3-BBD9-396AE9A5E2C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7975FC3D-3384-45C3-BBD9-396AE9A5E2C7}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{7975FC3D-3384-45C3-BBD9-396AE9A5E2C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7975FC3D-3384-45C3-BBD9-396AE9A5E2C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7975FC3D-3384-45C3-BBD9-396AE9A5E2C7}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {ED09307E-1B4C-4A94-B78B-6F2C05DE0BFB}
+	EndGlobalSection
+EndGlobal

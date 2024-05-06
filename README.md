@@ -1,8 +1,8 @@
-Movie Website 
+Movie Website <br>
 
---> Here, We can Add Movies We Want to Watch.
---> Delete Movies From Watching List.
--->Get MOvie Back From Deleted Movies.
+--> Here, We can Add Movies We Want to Watch.<br>
+--> Delete Movies From Watching List.<br>
+-->Get MOvie Back From Deleted Movies.<br>
 
-To Add In future:
-movie Booking 
+To Add In future:<br>
+movie Booking <br>

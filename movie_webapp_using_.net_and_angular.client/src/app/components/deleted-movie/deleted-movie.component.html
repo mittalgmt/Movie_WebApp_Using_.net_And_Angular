@@ -1,12 +1,12 @@
 <div class="container">
     <div class="row">
         <div class="col-12">
-            <h3 style="text-align: left;">Delete Movies </h3>
+            <h3 style="text-align: left;">Delete Movies</h3>
         </div>
     </div>
     <div class="row">
         <div class="col-12">
-            <table class="table table-bordered">
+            <table class="table table-bordered table-wrap">
                 <thead>
                     <tr>
                         <th scope="col">Movie Name</th>
@@ -19,7 +19,7 @@
                     <tr *ngFor="let movie of movies">
                         <th [class.stroke]="movie.watched">{{ movie.movieName}}</th>
                         <td>{{movie.watched}}</td>
-                        <td><button class="btn btn-primary" (click)="undoDeletedMovie(movie.id, movie)">Undo</button>
+                        <td><button class="btn btn-primary btn-pink" (click)="undoDeletedMovie(movie.id, movie)">Undo</button>
                         </td>
                     </tr>
                 </tbody>

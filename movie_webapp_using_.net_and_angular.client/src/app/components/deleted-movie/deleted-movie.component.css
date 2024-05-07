@@ -1,0 +1,13 @@
+/* Custom CSS to make button pink */
+.btn-pink {
+    background-color: #FFC0CB;
+}
+
+/* Custom CSS to make table rows wrap */
+.table-wrap th,
+.table-wrap td {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    border: 1px solid black;
+}

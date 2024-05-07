@@ -56,5 +56,5 @@ body {
     border: 1px solid black; /* Add border to table cells */
     word-wrap: break-word; /* Allow long words to wrap within cells */
     padding: 8px 12px; /* Add padding to cells */
-    text-align: center; /* Center align text within cells */
+    /* text-align: center; Center align text within cells */
 }

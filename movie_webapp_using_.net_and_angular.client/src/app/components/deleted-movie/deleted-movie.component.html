@@ -1,23 +1,29 @@
 <div class="container">
-    <h3>Delete Movies </h3>
     <div class="row">
-        <table class="table">
-            <thead>
-                <tr>
-                    <th scope="col">Movie Name</th>
-                    <!-- <th scope="col">Movie Description</th> -->
-                    <th scope="col">Watched?</th>
-                    <th></th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr *ngFor="let movie of movies">
-                    <th [class.stroke]="movie.watched">{{ movie.movieName}}</th>
-                    <td>{{movie.watched}}</td>
-                    <td><a [routerLink]="[]" (click)="undoDeletedMovie(movie.id,movie)">Undo</a></td>
-                   
-                </tr>
-            </tbody>
-        </table>
+        <div class="col-12">
+            <h3 style="text-align: left;">Delete Movies </h3>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12">
+            <table class="table table-bordered">
+                <thead>
+                    <tr>
+                        <th scope="col">Movie Name</th>
+                        <!-- <th scope="col">Movie Description</th> -->
+                        <th scope="col">Watched?</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr *ngFor="let movie of movies">
+                        <th [class.stroke]="movie.watched">{{ movie.movieName}}</th>
+                        <td>{{movie.watched}}</td>
+                        <td><button class="btn btn-primary" (click)="undoDeletedMovie(movie.id, movie)">Undo</button>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
     </div>
 </div>

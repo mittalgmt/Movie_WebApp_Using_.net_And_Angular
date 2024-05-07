@@ -1,3 +1,60 @@
 .stroke{
     text-decoration: line-through;
 }
+/* .container {
+    margin: 20px;
+} */
+
+.row {
+    margin-bottom: 20px;
+}
+
+h3 {
+    text-align: left;
+}
+
+h4 {
+    font-weight: bold;
+    margin-left: 5px; /* Adjust as needed */
+}
+
+.form-control {
+    border: 1px solid black; /* Adjust border properties as needed */
+}
+
+.btn-delete {
+    background-color: #ffb6c1;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* Mixture of shades of pink background */
+body {
+    background: #ff9999; /* Fallback for older browsers */
+    background: -webkit-linear-gradient(to right, #ff9999, #ff66cc, #ff33ff, #ff99ff); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ff9999, #ff66cc, #ff33ff, #ff99ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.container {
+    margin: 20px auto; /* Center container */
+    max-width: 800px; /* Limit maximum container width */
+}
+
+.table {
+    border: 2px solid black; /* Add border to the table */
+    table-layout: auto; /* Allow table to adjust its size based on content */
+    width: auto; /* Allow table width to adjust */
+    margin: 0 auto; /* Center table */
+    font-size: 1.1em; /* Increase font size slightly */
+}
+
+.table th,
+.table td {
+    border: 1px solid black; /* Add border to table cells */
+    word-wrap: break-word; /* Allow long words to wrap within cells */
+    padding: 8px 12px; /* Add padding to cells */
+    text-align: center; /* Center align text within cells */
+}

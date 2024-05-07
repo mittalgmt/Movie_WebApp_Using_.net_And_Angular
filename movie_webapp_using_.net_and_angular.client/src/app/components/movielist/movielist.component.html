@@ -1,3 +1,4 @@
+
 <div class="container">
     <div class="row">
         <h3>Add Movies </h3>
@@ -28,7 +29,7 @@
                     <td><input type="checkbox"
                         [checked]="movie.watched"
                          (change)="onWatchedChange(movie.id,movie)"></td>
-                    <td><a [routerLink]="[]" (click)="deleteMovie(movie.id)">Delete</a></td>
+                         <td><button class="btn-delete" (click)="deleteMovie(movie.id)">Delete</button></td>
                 </tr>
             </tbody>
         </table>
